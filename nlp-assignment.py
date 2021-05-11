@@ -79,14 +79,5 @@ for string in f_list:
 #    to use a different approach like the word vectors I mentioned before                                                                       #
 #################################################################################################################################################
 
-# while(True):
-#     user_input = input('Enter symptoms: ').lower() #List of stopwords does not account for case sensitivity, so I converted to lowercase to account for that
-#     input_tokens = word_tokenize(user_input)
-#     input_tokens_no_stop = [word for word in input_tokens if not word in stopwords.words()]
-#     processed_input = ' '
-#     # Pre-processes user input ( which i left for demonstration and testing ) before predicting condition.
-#     test_condition = vectorizer.transform([processed_input.join([PorterStemmer().stem(i) for i in input_tokens_no_stop])])
-#     print(clf_svm.predict(test_condition))
-#     # Tests pre-processed user input against its training to predict matching condition.
 
 
