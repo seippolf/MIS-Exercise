@@ -75,9 +75,9 @@ for string in f_list:
 #    often going to be repeated in all cases assuming they share even a few words. Therefore I felt a bag of words would be more appropriate.   #
 #                                                                                                                                               #
 #    Some limitiations to the bag of words approach I took are the lack of semantics. For example 'itching' and 'speaking' are synonymous       #
-#    with 'scratching' and 'talking' respectively. The solutions would be to increase the sample size (which could cause other problems) or     #
-#    to use a different approach like the word vectors I mentioned before                                                                       #
+#    with 'scratching' and 'talking' respectively, but would not be treated as such. The solutions would be to increase the                     #
+#    sample size (which could cause other problems) or to use a different approach like the word vectors I mentioned before, at risk of other   #
+#    issues.                                                                                                                                    #
 #################################################################################################################################################
-
 
 
